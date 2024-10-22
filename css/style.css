@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+}
+
+ body{
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+    top: -537px;
+    left: -720px;
+    gap: 0px;
+   
+}
+.container {
+    display: flex;
+    width:504px;
+    height:617px;
+    padding:35px;
+    gap:26px;
+    border-radius: 10px;
+    border: 0.5px;
+    background: #FFFFFF;
+    border: 0.5px solid #878787
+   
+}
+ .form .usuario{
+    display: flex;
+    width: 423px;
+    height: 92px;
+    gap: 0px;
+    opacity: 0px;
+    
+
+ }
