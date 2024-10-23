@@ -24,17 +24,28 @@
     padding:35px;
     gap:26px;
     border-radius: 10px;
-    border: 0.5px;
     background: #FFFFFF;
-    border: 0.5px solid #878787
+    border: 0.5px solid #878787;
+    flex-direction: column;
+    & h1{
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 37.5px;
+        text-align: left;
+
+    }
    
 }
- .form .usuario{
-    display: flex;
-    width: 423px;
-    height: 92px;
-    gap: 0px;
-    opacity: 0px;
-    
 
- }
+input{
+    width: 423px;
+    justify-content: space-between;
+    border: #282828 0.6px solid;
+    padding: 19px 27px;
+    border-radius: 6px;
+
+}
+
+
+
